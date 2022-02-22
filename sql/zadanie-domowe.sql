@@ -21,9 +21,5 @@ ORDER BY FirstName ASC
 
 /*4. * Znajdz użytkownikow których wiek jest liczbą parzystą */
 
-SELECT *
-FROM Users
-Where Age = int 
-
 /*5. * Wypisz połączone imię i nazwisko wszystkich użytkowników w formie jednej kolumny o nazwie 'UserName'.
    Format wypisanych danych to 'Filip Paluch' jako jedna kolumna zamiast dwóch kolumn. 
