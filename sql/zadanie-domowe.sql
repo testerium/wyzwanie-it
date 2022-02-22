@@ -21,5 +21,18 @@ ORDER BY FirstName ASC
 
 /*4. * Znajdz użytkownikow których wiek jest liczbą parzystą */
 
-/*5. * Wypisz połączone imię i nazwisko wszystkich użytkowników w formie jednej kolumny o nazwie 'UserName'.
-   Format wypisanych danych to 'Filip Paluch' jako jedna kolumna zamiast dwóch kolumn. 
+SELECT * 
+FROM Users 
+WHERE (Age % 2) = 0
+
+/*5. * Wypisz połączone imię i nazwisko wszystkich użytkowników w formie jednej 
+kolumny o nazwie 'UserName'. Format wypisanych danych to 'Filip Paluch' jako 
+jedna kolumna zamiast dwóch kolumn. */
+
+SELECT CONCAT(FirstName, ' ', LastName) 
+AS UserName
+FROM Users
+
+
+
+

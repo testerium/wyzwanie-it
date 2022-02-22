@@ -5,25 +5,22 @@ CREATE TABLE Users (
     LastName varchar(255) NOT NULL,
     FirstName varchar(255) NOT NULL,
     Age int,
-    Country varchar(255);
+    Country varchar(255)
 );
 
 /* Dodanie rekordów do tabeli Users */
 
 INSERT INTO Users
-VALUES ('Niedziałkowska', 'Paulina', 29, 'Poland')
+VALUES ('Paluch', 'Filip', 30, 'Italy')
 
 INSERT INTO Users
-VALUES ('Niedziałkowski', 'Mikołaj', 32, 'Poland')
+VALUES ('Krychowski', 'Damian', 31, 'Poland')
 
 INSERT INTO Users
-VALUES ('Kowalski', 'Jan', 60, 'Italy')
+VALUES ('Kowalski', 'Jan', 17, 'Poland')
 
 INSERT INTO Users
-VALUES ('Nowak', 'Janina', 53, 'Italy')
-
-INSERT INTO Users
-VALUES ('Bąk', 'Marian', null, 'France')
+VALUES ('Nowak', 'Jan', null, 'Spain')
 
 
 /* Pobieranie elementów za pomocą komendy SELECT */
